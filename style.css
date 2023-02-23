@@ -1,0 +1,92 @@
+body{
+    background-color: #DDAEF4;
+    font-family: 'Chelsea Market', cursive;
+    color: aliceblue;
+    font-size: 20px;
+    text-align: center;
+}
+
+h1{
+    padding: 1%;
+    width:fit-content;
+    margin:0% auto 5%;
+    font-size:300%;
+    color:#DDAEF4;
+    -webkit-text-stroke: 1px rgb(0, 0, 0, 0.3);
+    text-shadow: 10px 6px 5px rgb(186, 146, 206,0.4);
+    border-radius: 15px 10px;
+    box-shadow:6px 8px 1px rgb(62, 76, 55, 0.2);
+    background-color:#d8ffc5
+}
+
+.input{
+    width: 450px;
+    height: 50px;
+    margin: 5px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    font-size: 200%;
+    text-align: center;
+    font-family: 'Chelsea Market', cursive;
+}
+
+.boton-agregar{
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    border: none;
+    border-radius: 10px;
+    background-color: #C5F4AE;
+    color: black;
+    border:2px solid black;
+    font-size: 200%;
+}
+.boton-agregar:hover {
+    background: #73ae964d;
+}
+
+
+.itemContainer{    
+    text-align:center;
+    margin:1% auto;
+    margin-bottom: 10px;
+    background-color:rgb(186, 146, 206,0.4);
+    
+}
+/* boton editar y remover */
+.buttonGeneral{
+    font-size:210%;
+    border-radius: 30px 15px;
+    margin-left:1%;
+    /* box-shadow añade efectos de sombra alrededor del marco de un elemento */
+    box-shadow:6px 8px 1px #73ae964d;
+    background-color:#C5F4AE;
+
+}
+
+
+.item-input{
+    height: 50px;
+    width: 450px;
+    padding: 0 20px;
+    border: 1px solid white;
+    border-radius: 10px;
+    font-size: 200%;
+    color: white;
+    background: none;
+    outline: none;
+    text-align: center;
+    font-family: 'Chelsea Market', cursive;
+
+}
+
+
+
+
+
+
